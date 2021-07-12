@@ -5,7 +5,6 @@
 <div id="sankey_multiple" style="width: 900px; height: 300px;"></div>
 
 <script type="text/javascript">
-console.log('hello')
   google.charts.load("current", {packages:["sankey"]});
   google.charts.setOnLoadCallback(drawChart);
    function drawChart() {
@@ -14,14 +13,14 @@ console.log('hello')
     data.addColumn('string', 'To');
     data.addColumn('number', 'Count');
     data.addRows([
-        ['Part 1','url 1',9],
-        ['Part 2','url 2',3],
+        ['Part 1','20 nis gift',9],
+        ['Part 2','20 nis gift',3],
         ['Part 2','Part 3',2],
         ['Part 3','Part 4',2],
         ['Part 3','Part 2_',1],
         ['Part 4','Part 2_',1],
         ['Part 1','Part 3',3],
-        ['Part 3','url 3',1],
+        ['Part 3','20 nis gift',1],
         ['Part 1','Part 2',7],
         ['Part 2','Part 6',1]
     ]);
